@@ -21,7 +21,8 @@ journal/
 
 ## 새 호를 공개하는 절차
 
-1. `volNN/` 디렉터리를 만들고 `contents.md` 작성 (아래 vol01/contents.md 참조)
+1. `volNN/` 디렉터리를 만들고 `contents.md` 작성 (아래 vol01/contents.md 참조).
+   그 해 신규 등재분 부록도 목차에 넣습니다 (아래 "부록" 절 참조)
 
 2. **Zenodo에 PDF를 올려 DOI를 받습니다.**
    1. https://zenodo.org 로그인 → 우측 상단 **New upload**
@@ -40,6 +41,22 @@ journal/
 5. 발간사 요약과 **2단계에서 받은 DOI 링크**를 설명란에 쓰고 **최종 PDF를 첨부**
 6. **Publish release**
 7. 발급된 DOI를 `volNN/contents.md`와 홈페이지 `journal.md` 표에 기입
+
+## 부록 — 대전향토문화목록 신규 등재분
+
+호마다 **부록으로 그 해 새로 확정된 향토문화 항목 목록**을 싣습니다.
+원고는 `internal` 저장소에서 대장으로부터 자동 생성합니다.
+
+```bash
+python tools/export_public.py --appendix 2026    # internal 저장소에서
+```
+
+- 생성된 원고(`internal/manuscripts/부록-대전향토문화목록-2026년-신규분.md`)를
+  그 해 회지 편집에 넘깁니다. 조판 과정에서 표를 다듬는 것은 자유입니다.
+- **부록은 따로 DOI를 받지 않습니다.** 그 부록이 실린 이 호의 DOI를 씁니다.
+- 누적 전체 목록은 몇 해 분량이 모이면 별도 **단행본**으로 펴내며, 그때는 자체
+  DOI를 받습니다. 이 저장소가 아니라 홈페이지·Zenodo 쪽 일입니다.
+- 절차의 정본은 `internal/placenames/README.md`의 "발간하기"입니다.
 
 ## Zenodo 메타데이터 기준
 

@@ -3,7 +3,7 @@
 - 발행: 대전향토문화연구회
 - 발행일: (기입)
 - ISSN: (기입)
-- DOI: (Release 발행 후 Zenodo가 발급한 DOI 기입)
+- DOI: (Zenodo 업로드 후 발급된 DOI 기입)
 - PDF: (Release 링크 기입)
 
 ## 목차

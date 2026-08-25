@@ -1,0 +1,21 @@
+{
+  "title": "대전향토연구 (Daejeon Local Studies)",
+  "description": "대전향토문화연구회가 발간하는 연간 향토사 학술지. Annual journal of the Daejeon Local Culture Research Society (Daejeon Hyangto Munhwa Yeonguhoe), covering local history and culture of Daejeon, Republic of Korea.",
+  "creators": [
+    {
+      "name": "대전향토문화연구회 (Daejeon Local Culture Research Society)"
+    }
+  ],
+  "license": "CC-BY-SA-4.0",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "language": "kor",
+  "keywords": ["대전", "향토사", "Daejeon", "local history", "Korea"],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.wikidata.org/wiki/Q140909556",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "이 회지를 인용할 때는 아래 정보를 사용해 주십시오."
+title: "대전향토연구"
+type: dataset
+authors:
+  - name: "대전향토문화연구회"
+url: "https://daehyang.github.io/journal/"
+repository: "https://github.com/daehyang/journal"

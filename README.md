@@ -25,16 +25,20 @@ journal/
    그 해 신규 등재분 부록도 목차에 넣습니다 (아래 "부록" 절 참조)
 
 2. **Zenodo에 PDF를 올려 DOI를 받습니다.**
-   1. https://zenodo.org 로그인 → 우측 상단 **New upload**
-   2. 최종 PDF 한 개를 올리고 메타데이터 입력 (기준값은 `.zenodo.json` 참조)
-      - Resource type: `Publication` → `Book` (회지 한 호 전체)
-      - Title: `대전향토연구 제N호 (YYYY)`
-      - Creators: `대전향토문화연구회` (Organization)
-      - Publication date: 실제 발행일 / Language: `Korean`
-      - License: `CC BY-SA 4.0`
-   3. **Publish** → DOI 발급
+   화면 단계별 절차의 **정본은 `internal` 저장소의 `docs/operations.md` 6장**입니다
+   (임원용 운영 편람. 비공개 저장소이므로 접근 권한이 필요합니다).
+   단행본도 같은 절차를 쓰기 때문에 그 한 곳에 두었습니다.
+
+   여기서 알아야 할 것만 적습니다.
+
+   - 올리는 값의 기준은 이 저장소의 `.zenodo.json`입니다. Resource type 은
+     `Publication → Book`(회지 한 호 전체), 라이선스는 `CC BY-SA 4.0`
    - 호마다 **별개의 업로드**로 올립니다. Zenodo의 `New version`은 같은 저작물의 개정판용이므로,
-     서로 다른 호에는 쓰지 않습니다 (호별로 독립된 DOI를 갖게 합니다).
+     서로 다른 호에는 쓰지 않습니다 (호별로 독립된 DOI를 갖게 합니다)
+   - **DOI를 판권장에 인쇄하려면 발행 전에 DOI를 예약**해야 합니다. 그러지 않으면
+     "DOI는 발행해야 나오는데 발행할 PDF에 그 DOI를 적어야 한다"는 순환에 걸립니다
+   - **GitHub–Zenodo 자동 연동은 켜지 않습니다.** 시험 목적으로도 켜지 않습니다
+     (한 번 켰다가 잘못된 DOI가 발급된 일이 있습니다)
 
 3. 저장소 우측 **Releases → Draft a new release**
 4. 태그: `vol.NN` (예: `vol.03`) / 제목: `대전향토연구 제N호 (YYYY)`

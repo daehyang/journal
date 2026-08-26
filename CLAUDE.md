@@ -34,8 +34,9 @@ PDF는 GitHub Release(배포)와 Zenodo(보존·DOI)로 낸다.
 
 ## 파일
 
-- `README.md` — 절차의 정본. Zenodo 업로드 절차가 `internal/docs/operations.md` 6장에도
-  적혀 있으므로 절차를 바꾸면 **두 곳을 함께** 고친다.
+- `README.md` — 새 호를 공개하는 절차의 정본. 단 **Zenodo 업로드 화면 절차는 여기 두지
+  않는다** — 그 정본은 `internal/docs/operations.md` 6장이고 여기에는 요약과 링크만 둔다
+  (단행본도 같은 절차를 쓰므로 한 곳에 모았다. `internal/docs/decisions.md` 0010).
 - `.zenodo.json` — Zenodo 업로드 화면에 옮겨 적는 표준 메타데이터. `publication_type`은 `book`
   (회지 한 호 전체이므로 journal article이 아니다). `related_identifiers`의 Q140909556은
   **회지**의 위키데이터 항목이다 (연구회는 Q141162117 — 혼동하지 말 것).

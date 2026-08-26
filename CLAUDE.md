@@ -3,7 +3,9 @@
 대전향토문화연구회 연간 회지의 공개 저장소. 호별 디렉터리(`volNN/`)에 목차·서지 정보를 두고,
 PDF는 GitHub Release(배포)와 Zenodo(보존·DOI)로 낸다.
 
-전체 진행 상황과 남은 일은 **`internal` 저장소의 `docs/SETUP-GUIDE.md`**가 기준이다.
+남은 일은 `internal` 저장소의 **Issues**에 있다. 연구회 GitHub 운영 문서도 그 저장소의
+`docs/` 에 있다 — `operations.md`(임원용 절차) · `maintenance.md`(기술) ·
+`decisions.md`(결정 기록).
 
 ## 반드시 지킬 것
 
@@ -32,7 +34,8 @@ PDF는 GitHub Release(배포)와 Zenodo(보존·DOI)로 낸다.
 
 ## 파일
 
-- `README.md` — 절차의 정본. 절차를 바꾸면 여기와 `internal/docs/SETUP-GUIDE.md` 4장을 함께 고친다.
+- `README.md` — 절차의 정본. Zenodo 업로드 절차가 `internal/docs/operations.md` 6장에도
+  적혀 있으므로 절차를 바꾸면 **두 곳을 함께** 고친다.
 - `.zenodo.json` — Zenodo 업로드 화면에 옮겨 적는 표준 메타데이터. `publication_type`은 `book`
   (회지 한 호 전체이므로 journal article이 아니다). `related_identifiers`의 Q140909556은
   **회지**의 위키데이터 항목이다 (연구회는 Q141162117 — 혼동하지 말 것).

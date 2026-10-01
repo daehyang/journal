@@ -7,6 +7,14 @@ PDF는 GitHub Release(배포)와 Zenodo(보존·DOI)로 낸다.
 `docs/` 에 있다 — `operations.md`(임원용 절차) · `maintenance.md`(기술) ·
 `decisions.md`(결정 기록).
 
+## 브랜치와 푸시
+
+이 저장소는 **브랜치를 만들고 PR 로** 올린다. **세 저장소 중 여기만 그렇게 한다**
+(`internal/docs/decisions.md` 0012). `internal` 과 홈페이지는 `main` 에 직접 민다.
+
+발간 기록·DOI·ISSN·저자별 라이선스 동의가 걸려 있어, 들어가기 전에 한 번 멈추는 값이
+있다고 보았다. 한 번 발행한 DOI 와 한 번 밝힌 라이선스는 되돌리기 어렵다.
+
 ## 반드시 지킬 것
 
 - **PDF를 저장소에 커밋하지 않는다.** 이력이 비대해진다. PDF는 Release 첨부와 Zenodo에만 둔다.
